@@ -37,7 +37,7 @@ package selenium;
 
 		@Test
 		public void TC_03_LoginFormDisplayed() {
-			// Login form displayed
+			// Login form displayed Testing
 			Assert.assertTrue(driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed());
 		}
 
